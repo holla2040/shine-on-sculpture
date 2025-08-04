@@ -33,6 +33,7 @@ This step teaches you to engrave text into the surface of an object using the Bo
    - Go to Modifiers tab → Add Modifier → Boolean.
    - Set **Operation** to **Difference**.
    - Click **Object**, then choose the text mesh.
+   - **Note**: Blender 4.5+ includes a new **Manifold** solver option that's faster and more reliable than the default Float solver. Try it if you encounter issues.
 
 8. **Apply the modifier**:
    - Click the ▼ drop-down on the Boolean modifier → Apply.

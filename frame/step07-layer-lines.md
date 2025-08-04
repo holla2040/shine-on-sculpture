@@ -28,6 +28,7 @@ This step simulates the look of 3D printer layer lines by slicing a model horizo
    - Add Modifier → Boolean.
    - Set Operation: **Intersect** or **Difference** (try both).
    - Select the stacked plane mesh as the Boolean object.
+   - **Note**: In Blender 4.5+, try the **Manifold** solver for cleaner results.
 
 6. **Apply and clean up**:
    - Apply the Boolean modifier.
